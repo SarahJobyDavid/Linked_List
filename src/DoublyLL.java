@@ -1,4 +1,8 @@
 public class DoublyLL {
+
+    Node head;
+//    public void inder
+
     private class Node{
         int val;
         Node next;

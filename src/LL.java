@@ -103,7 +103,7 @@ public class LL {
         System.out.println("end");
     }
 
-    private class Node{
+    public class Node{
         private int value;
         private Node next;
 
