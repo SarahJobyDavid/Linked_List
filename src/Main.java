@@ -28,6 +28,7 @@ public class Main {
         list2.insertFirst(96);
         //list2.insertLast(90);
         list2.display();
+        list2.displayRev();
 
     }
 }

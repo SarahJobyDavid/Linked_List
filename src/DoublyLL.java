@@ -25,7 +25,17 @@ public class DoublyLL {
     }
     // REVERSING THE LINKED LIST AND DISPLAYING IT
     public void displayRev(){
-
+        Node node = head;
+        Node tail = null;
+        while(node != null){
+            tail = node;   //THIS WILL ITERATE TILL THE LAST ELEM
+            node = node.next;  // THIS WILL ITERATE TILL NULL
+        }
+        System.out.println("List in Reverse");
+        while(tail != null){
+            System.out.print(tail.val+"->");
+            tail = tail.prev;
+        }
     }
 
     private class Node{
